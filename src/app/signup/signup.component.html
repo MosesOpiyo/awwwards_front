@@ -1,13 +1,13 @@
 <body>
     <app-navbar></app-navbar>
-    <form>
+    <form #userForm='ngForm' (ngSubmit)="signupUser()">
         <h2>Sign up for an account</h2>
         <br>
-        <input type="text" placeholder="Email" name="email">
+        <input type="text" placeholder="Email" [(ngModel)]="user.email" name="email">
         <br>
-        <input type="username" placeholder="username" name="username">
+        <input type="username" placeholder="username" [(ngModel)]="user.username" name="username">
         <br>
-        <input type="password" placeholder="Password" name="password">
+        <input type="password" placeholder="Password" [(ngModel)]="user.password" name="password">
         <br>
         <input type="password" placeholder="Confirm Password">
         <br>

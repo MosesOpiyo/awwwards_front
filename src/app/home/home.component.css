@@ -1,0 +1,45 @@
+.navbar {
+    height: 7vh;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+a {
+    padding-right: 70px;
+    font-size: 25px;
+}
+
+button {
+    width: 20%;
+    height: 8vh;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.card {
+    background-color: tomato;
+    width: 20%;
+    height: 40vh;
+    margin-top: 150px;
+}
+
+.col h1 {
+    padding-left: 100px;
+    margin-top: 45%;
+}
+
+.col h2 {
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+.col h3 {
+    padding-left: 100px;
+    margin-top: 20px;
+}
