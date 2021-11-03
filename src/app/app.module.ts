@@ -10,6 +10,7 @@ import { SignupComponent } from './signup/signup.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { Routes } from '@angular/router';
+import { ProjectFormComponent } from './project-form/project-form.component';
 
 const routes:Routes = [
   {
@@ -38,7 +39,8 @@ const routes:Routes = [
     NavbarComponent,
     LoginComponent,
     SignupComponent,
-    HomeComponent
+    HomeComponent,
+    ProjectFormComponent
   ],
   imports: [
     BrowserModule,
